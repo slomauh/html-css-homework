@@ -1,0 +1,57 @@
+/* Устанавливаем фон и шрифт для всей страницы */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Центрируем заголовок */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Настраиваем изображение */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;        /* Ширина изображения */
+    border: 2px solid #333;
+    border-radius: 50%;  /* Скруглённые края, если хотите сделать аватар круглым */
+    margin-top: 10px;
+  }
+  
+  /* Параграф можно тоже выровнять по центру */
+  p {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px; /* Чтобы параграф не растягивался на всю ширину */
+  }
+  
+  /* Список интересов */
+  ul {
+    list-style-type: square;
+    width: 200px;
+    margin: 20px auto;
+    padding: 0;
+  }
+  
+  /* Отступы между пунктами списка */
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Ссылка на социальную сеть, также центрируем */
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    color: #007BFF; /* Изменение цвета при наведении */
+  }
+  
